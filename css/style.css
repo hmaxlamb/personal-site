@@ -38,19 +38,45 @@ header .navbar {
   transform: translateX(-50%);
 }
 
-.nav_list {
+.nav-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  list-style: none;
+  text-decoration: none;
   gap: 5em;
 }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Customize the background color to match your design.
- */
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: space-around;
+  padding: 2em 30em;
+  gap: 1em;
+}
+
+.image-of-self {
+  width: 16em;
+  height: auto;
+}
+
+.about-self {
+  flex: 1;
+  font-size: larger;
+}
+
+main {
+  flex: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  margin: 0;
+}
+
 
 ::-moz-selection {
   background: #b3d4fc;
