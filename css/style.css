@@ -19,24 +19,18 @@ html {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: relative;
-  border-bottom: 2px solid darkslategrey;
-}
-
-header .logo {
-  display: flex;
-  justify-content: flex-start;
-  width: 10em;
-  height: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  height: 4em;
 }
 
 header .navbar {
   display: flex;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-54%);
 }
 
 .nav-list {
@@ -53,6 +47,7 @@ a[href="#Home"] {
   text-decoration: none;
   font-family: Comic Sans MS, cursive;
   font-size: x-large;
+  font-weight: bold;
 }
 
 .home {
@@ -99,6 +94,7 @@ body {
   flex-direction: column;
   min-height: 100dvh;
   margin: 0;
+  background: linear-gradient(to bottom, #fdfbf7, #e2ded8);
 }
 
 
