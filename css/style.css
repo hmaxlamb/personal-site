@@ -30,7 +30,7 @@ header .navbar {
   display: flex;
   position: absolute;
   left: 50%;
-  transform: translateX(-54%);
+  transform: translateX(-53%);
 }
 
 .nav-list {
@@ -42,7 +42,8 @@ header .navbar {
 }
 
 a[href="#Contact"],
-a[href="#Home"] {
+a[href="#Home"],
+a[href="#Projects"]{
   color: inherit;
   text-decoration: none;
   font-family: Comic Sans MS, cursive;
@@ -81,8 +82,56 @@ a[href="#Home"] {
   font-size: x-large;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  padding-bottom: 2em;
+  background-color: #dcdcdc;
+}
+
+.project-title {
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: Comic Sans MS, cursive;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.08);
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.contact-title {
+  display: flex;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.contact-list {
+  color: inherit;
+  text-decoration: none;
+  font-family: Comic Sans MS, cursive;
+  font-size: large;
+  list-style: none;
+}
+
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding-left: 1em;
 }
 
 main {
